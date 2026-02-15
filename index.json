@@ -1,0 +1,28 @@
+{
+  "name": "Nori Language",
+  "author": "Nori Contributors",
+  "id": "dev.nori.vpm",
+  "url": "https://vcc.nori-lang.dev/index.json",
+  "packages": {
+    "dev.nori.compiler": {
+      "versions": {
+        "0.1.0": {
+          "name": "dev.nori.compiler",
+          "displayName": "Nori Language",
+          "version": "0.1.0",
+          "description": "A clear, friendly programming language for VRChat worlds.",
+          "unity": "2022.3",
+          "documentationUrl": "https://nori-lang.dev",
+          "keywords": ["vrchat", "udon", "language", "compiler"],
+          "author": {
+            "name": "Nori Contributors",
+            "url": "https://github.com/norilang/nori"
+          },
+          "dependencies": {},
+          "url": "https://github.com/norilang/nori/releases/download/v0.1.0/dev.nori.compiler-0.1.0.zip",
+          "zipSHA256": "TODO"
+        }
+      }
+    }
+  }
+}

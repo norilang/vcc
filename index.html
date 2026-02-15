@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nori Language — VCC Package</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #0f0b1a;
+      color: #e2e0e8;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .card {
+      max-width: 520px;
+      width: 100%;
+      background: #1a1525;
+      border: 1px solid #2d2640;
+      border-radius: 16px;
+      padding: 2.5rem;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0.25rem;
+    }
+
+    .version {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #7c3aed;
+      background: rgba(124, 58, 237, 0.15);
+      border-radius: 999px;
+      padding: 0.15rem 0.6rem;
+      margin-bottom: 1rem;
+    }
+
+    .description {
+      font-size: 1rem;
+      color: #a8a3b3;
+      line-height: 1.5;
+      margin-bottom: 2rem;
+    }
+
+    .add-btn {
+      display: inline-block;
+      background: #7c3aed;
+      color: #fff;
+      font-size: 1.1rem;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 0.85rem 2rem;
+      border-radius: 10px;
+      transition: background 0.15s;
+    }
+
+    .add-btn:hover { background: #6d28d9; }
+
+    .manual {
+      margin-top: 1.5rem;
+      font-size: 0.85rem;
+      color: #6b6578;
+      line-height: 1.6;
+    }
+
+    .manual summary {
+      cursor: pointer;
+      color: #8b83a0;
+    }
+
+    .manual-url {
+      display: block;
+      margin-top: 0.5rem;
+      background: #13101c;
+      border: 1px solid #2d2640;
+      border-radius: 8px;
+      padding: 0.6rem 1rem;
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 0.8rem;
+      color: #c4b5fd;
+      word-break: break-all;
+      user-select: all;
+    }
+
+    .links {
+      margin-top: 2rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid #2d2640;
+      font-size: 0.85rem;
+    }
+
+    .links a {
+      color: #7c3aed;
+      text-decoration: none;
+    }
+
+    .links a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Nori Language</h1>
+    <span class="version">v0.1.0</span>
+    <p class="description">
+      A clear, friendly programming language for VRChat worlds that compiles to Udon Assembly.
+    </p>
+
+    <a class="add-btn" href="vcc://vpm/addRepo?url=https%3A%2F%2Fvcc.nori-lang.dev%2Findex.json">
+      Add to VCC
+    </a>
+
+    <div class="manual">
+      <details>
+        <summary>Manual install</summary>
+        <p style="margin-top: 0.5rem;">
+          In VCC, go to <strong>Settings &gt; Packages</strong>, click <strong>Add Repository</strong>, and paste:
+        </p>
+        <code class="manual-url">https://vcc.nori-lang.dev/index.json</code>
+      </details>
+    </div>
+
+    <div class="links">
+      <a href="https://nori-lang.dev">Documentation</a>
+      &nbsp;&middot;&nbsp;
+      <a href="https://github.com/norilang/nori">GitHub</a>
+    </div>
+  </div>
+</body>
+</html>
